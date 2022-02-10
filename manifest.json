@@ -1,0 +1,17 @@
+
+{
+    "name": "cat_power",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://intra.epitech.eu/*"],
+            "css": ["style.css"]
+        }
+    ],
+    "permissions": ["activeTab"],
+    "icons": {
+        "16":"el_cheguevacat.jpg",
+        "48":"el_cheguevacat.jpg"
+    }
+}
